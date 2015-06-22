@@ -1,5 +1,5 @@
 window.onload = function loadInfo() {
-    data = JSON.parse(getJson("https://cdn.rawgit.com/roadsidemultimedia/jsonDump/d6691ff6747be9732eb56bf84858eb08f8e538d3/infoCard1.json");
+    data = JSON.parse(getJson("https://cdn.rawgit.com/roadsidemultimedia/jsonDump/d6691ff6747be9732eb56bf84858eb08f8e538d3/infoCard1.json"));
     document.getElementById("data__name").textContent = data.name;
     document.getElementById("data__id").textContent = data.id;
     document.getElementById("data__htype").textContent = data.htype;
