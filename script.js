@@ -1,8 +1,5 @@
-var oReq = new XMLHttpRequest();
-
 window.onload = function loadInfo() {
-    info = oReq.open("GET", "https://cdn.rawgit.com/roadsidemultimedia/jsonDump/d6691ff6747be9732eb56bf84858eb08f8e538d3/infoCard1.json").responseText;
-    data = JSON.parse(info);
+    data = JSON.parse(getJson("https://cdn.rawgit.com/roadsidemultimedia/jsonDump/d6691ff6747be9732eb56bf84858eb08f8e538d3/infoCard1.json");
     document.getElementById("data__name").textContent = data.name;
     document.getElementById("data__id").textContent = data.id;
     document.getElementById("data__htype").textContent = data.htype;
@@ -13,3 +10,12 @@ window.onload = function loadInfo() {
     document.getElementById("data__name_server").textContent = data.name_server;
     document.getElementById("data__whois_admin_contact").textContent = data.whois_admin_contact;
 };
+
+
+function getJson(url) {
+  var httpReq = new XMLHttpRequest();
+  httpReq.open("GET",yourUrl,false);
+  httpReq.send(null);
+  return httpReq.responseText;
+}
+
