@@ -14,7 +14,7 @@ window.onload = function loadInfo() {
 
 function getJson(url) {
   var httpReq = new XMLHttpRequest();
-  httpReq.open("GET", url, false);
+  httpReq.open("GET", url);
   httpReq.send(null);
   return httpReq.responseText;
 }
