@@ -17,7 +17,7 @@ var getJSON = function(url) {
 };
 
 window.onload = function loadInfo() {
-    var data = JSON.parse(getJSON("https://cdn.rawgit.com/roadsidemultimedia/jsonDump/801e6a3de63cc0bd7e98f4a1709ea6e7f508cdc3/infoCard3.json"));
+    var data = JSON.parse(JSON.stringify(getJSON("https://cdn.rawgit.com/roadsidemultimedia/jsonDump/801e6a3de63cc0bd7e98f4a1709ea6e7f508cdc3/infoCard3.json")));
     document.getElementById("data__name").textContent = data.name;
     document.getElementById("data__id").textContent = data.id;
     document.getElementById("data__htype").textContent = data.htype;
