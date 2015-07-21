@@ -7,7 +7,7 @@ var getJSON = function(url) {
     xhr.onload = function() {
       var status = xhr.status;
       if (status == 200) {
-        resolve(xhr.response);
+        resolve(xhr.responseText);
       } else {
         reject(status);
       }
@@ -17,7 +17,8 @@ var getJSON = function(url) {
 };
 
 window.onload = function loadInfo() {
-    var data = JSON.parse(getJSON("https://cdn.rawgit.com/roadsidemultimedia/jsonDump/a9a92a7ea14c444e615bf9fc9c2b99da52a1cc08/infoCard4.json").responseText);
+    var info = getJSON("https://cdn.rawgit.com/roadsidemultimedia/jsonDump/a9a92a7ea14c444e615bf9fc9c2b99da52a1cc08/infoCard4.json");
+    var data = JSON.parse(JSON.stringify(info));
     document.getElementById("data__name").textContent = data.name;
     document.getElementById("data__id").textContent = data.id;
     document.getElementById("data__htype").textContent = data.htype;
