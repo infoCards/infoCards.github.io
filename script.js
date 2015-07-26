@@ -17,7 +17,8 @@ var getJSON = function(url) {
 };
 
 window.onload = function loadInfo() {
-    getJSON("https://cdn.rawgit.com/roadsidemultimedia/jsonDump/a9a92a7ea14c444e615bf9fc9c2b99da52a1cc08/infoCard4.json").then(function(data) {
+    //getJSON("https://cdn.rawgit.com/roadsidemultimedia/jsonDump/a9a92a7ea14c444e615bf9fc9c2b99da52a1cc08/infoCard4.json").then(function(data) {
+    getJSON("http://ix.io/iZK").then(function(data) {
       document.getElementById("data__name").textContent = data.name;
       document.getElementById("data__id").textContent = data.id;
       document.getElementById("data__htype").textContent = data.htype;
