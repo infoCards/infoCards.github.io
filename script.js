@@ -1,4 +1,5 @@
-
+// thanks to Mathias Bynens:
+// https://mathiasbynens.be/notes/xhr-responsetype-json
 var getJSON = function(url) {
   return new Promise(function(resolve, reject) {
     var xhr = new XMLHttpRequest();
