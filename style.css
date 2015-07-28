@@ -12,9 +12,12 @@
     text-align: left;
     word-wrap: break-word;
     padding: 1rem;
-    line-height: 1.5;
+    line-height: 2.5;
 }
 span {
     margin-left: 5px;
     color: hsla(0, 0%, 0%, 1);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.7);
+    background-color: hsla(360, 100%, 100%, 0.9);
 }
