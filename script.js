@@ -18,7 +18,7 @@ var getJSON = function(url) {
 };
 
 window.onload = function loadInfo() {
-    getJSON("https://rsmm-domains.firebaseio.com/lagiacrus/domains/bradsammonsdds-com").then(function(data) {
+    getJSON("https://rsmm-domains.firebaseio.com/lagiacrus/domains/bradsammonsdds-com.json").then(function(data) {
     /*
     getJSON("https://cdn.rawgit.com/roadsidemultimedia/jsonDump/a9a92a7ea14c444e615bf9fc9c2b99da52a1cc08/infoCard4.json").then(function(data) {
       document.getElementById("data__name").textContent = data.name;
