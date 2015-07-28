@@ -2,8 +2,8 @@
     width: 30%;
     min-width: 250px;
     max-width: 300px;
-    background-color: #444444;
-    color: #dedede;
+    background-color: hsla(197, 46%, 81%, 1);
+    color: hsla(0, 0%, 20%, 1);
     border-radius: 5px;
     box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.7);
     height: 350px;
@@ -16,5 +16,5 @@
 }
 span {
     margin-left: 5px;
-    color: #ffffff;
+    color: hsla(0, 0%, 0%, 1);
 }
