@@ -6,13 +6,13 @@
     color: hsla(0, 0%, 20%, 1);
     border-radius: 5px;
     box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.7);
-    height: 350px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     word-wrap: break-word;
     padding: 1rem;
-    line-height: 1.5;
+    line-height: 1.75;
 }
 span {
     margin-left: 5px;
