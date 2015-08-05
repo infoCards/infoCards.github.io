@@ -29,6 +29,7 @@ span {
     box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.7);
     background-color: hsla(360, 100%, 100%, 0.9);
     font-family: monospace;
+    border: 1px solid #eeeeee;
 }
 .card::first-line {
     font-weight: 900;
