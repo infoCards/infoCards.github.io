@@ -19,7 +19,7 @@ var getJSON = function (url) {
 
 function loadInfo(json, rootElement) {
     var oldElem = document.getElementById(rootElement);
-    oldElem.innerHTML = "<img src='atomLoading.gif' alt='Loading ...'>";
+    oldElem.innerHTML = "<div class='timer-loader'>Loading ...</div>";
     var oldElem = document.getElementById(rootElement);
     getJSON(json).then(function (data) {
         oldElem.innerHTML = "";
