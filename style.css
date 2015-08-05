@@ -1,8 +1,12 @@
+body {
+    background-color: hsla(200, 5%, 95%, 1);
+}
+
 .card {
     width: 30%;
     min-width: 250px;
     max-width: 300px;
-    background-color: hsla(200, 5%, 95%, 1);
+    background-color: #ffffff;
     color: hsla(0, 0%, 20%, 1);
     border-radius: 5px;
     box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.7);
