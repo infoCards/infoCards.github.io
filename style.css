@@ -2,7 +2,7 @@
     width: 30%;
     min-width: 250px;
     max-width: 300px;
-    background-color: hsla(197, 46%, 81%, 1);
+    background-color: hsla(200, 5%, 95%, 1);
     color: hsla(0, 0%, 20%, 1);
     border-radius: 5px;
     box-shadow: 1px 1px 5px hsla(0, 0%, 0%, 0.7);
@@ -13,6 +13,8 @@
     word-wrap: break-word;
     padding: 1rem;
     line-height: 1.75;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 span {
     margin-left: 5px;
@@ -22,7 +24,6 @@ span {
     box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.7);
     background-color: hsla(360, 100%, 100%, 0.9);
 }
-
 h2 {
     line-height: 1;
 }
