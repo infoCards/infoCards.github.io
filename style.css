@@ -13,7 +13,7 @@
     text-align: left;
     word-wrap: break-word;
     padding: 1rem;
-    line-height: 1.75;
+    line-height: 2;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -21,9 +21,10 @@ span {
     margin-left: 5px;
     color: hsla(0, 0%, 0%, 1);
     border-radius: 5px;
-    padding: 5px;
+    padding: 4px 2px 2px 2px;
     box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.7);
     background-color: hsla(360, 100%, 100%, 0.9);
+    font-family: monospace;
 }
 .card::first-line {
     font-weight: 900;
@@ -39,6 +40,7 @@ h1 {
 
 /** css loader */
 /** css-spinners.com */
+
 @-moz-keyframes timer-loader {
     0% {
         -moz-transform: rotate(0deg);

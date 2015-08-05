@@ -37,7 +37,7 @@ function loadInfo(json, rootElement) {
             }
             for (var j in data[i]) {
                 var newInfo = document.createElement('span');
-                newInfo.innerHTML = j + ": " + data[i][j] + "<br/>";
+                newInfo.innerHTML = j + ": " + "<span>" + data[i][j] + "</span>" + "<br/>";
                 while (newInfo.firstChild) {
                     newCard.appendChild(newInfo.firstChild);
                 }
