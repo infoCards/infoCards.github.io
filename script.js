@@ -19,7 +19,10 @@ var getJSON = function (url) {
 
 function loadInfo(json, rootElement) {
     var oldElem = document.getElementById(rootElement);
+    oldElem.innerHTML = "<img src='atomLoading.gif' alt='Loading ...'>";
+    var oldElem = document.getElementById(rootElement);
     getJSON(json).then(function (data) {
+        oldElem.innerHTML = "";
         for (var i in data) {
             var newStuff = document.createDocumentFragment();
             var newCard = document.createElement("div");
