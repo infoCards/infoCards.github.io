@@ -1,11 +1,10 @@
 body {
-    background-color: hsla(200, 5%, 95%, 1);
+    background-color: hsla(0, 5%, 95%, 1);
 }
-
 .card {
     width: 30%;
-    min-width: 250px;
-    max-width: 300px;
+    min-width: 280px;
+    max-width: 340px;
     background-color: #ffffff;
     color: hsla(0, 0%, 20%, 1);
     border-radius: 5px;
@@ -24,15 +23,11 @@ body {
 span {
     margin-left: 5px;
     color: hsla(0, 0%, 0%, 1);
-    border-radius: 5px;
-    padding: 4px 2px 2px 2px;
-    box-shadow: 1px 1px 2px hsla(0, 0%, 0%, 0.7);
     background-color: hsla(360, 100%, 100%, 0.9);
     font-family: monospace;
-    border: 1px solid #eeeeee;
 }
 .card::first-line {
-    font-weight: 900;
+    font-weight: 700;
 }
 h2 {
     clear: both;
@@ -42,10 +37,9 @@ h1 {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.3), -2px -2px 0 rgba(0, 0, 0, 0.7);
     color: rgba(0, 0, 0, 0.2);
 }
-
 /** css loader */
-/** css-spinners.com */
 
+/** css-spinners.com */
 @-moz-keyframes timer-loader {
     0% {
         -moz-transform: rotate(0deg);
