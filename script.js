@@ -1,7 +1,7 @@
-/*global window, Promise*/
-/*jslint browser: true, white: true*/
+/*jslint browser:true, white:true, es6:true*/
 (function () {
   'use strict';
+
   // thanks to Mathias Bynens:
   // https://mathiasbynens.be/notes/xhr-responsetype-json
   var getJSON = function (url) {
@@ -53,7 +53,7 @@
     loadInfo("https://rsmm-domains.firebaseio.com/shelbyville/domains.json", "shelbyville__placeholder");
     loadInfo("https://rsmm-domains.firebaseio.com/springfield/domains.json", "springfield__placeholder");
   };
-  window.addEventListener('load', function () {
+  document.addEventListener('DOMContentLoaded', function () {
     init();
   });
 
